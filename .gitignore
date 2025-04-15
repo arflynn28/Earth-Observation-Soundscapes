@@ -1,0 +1,38 @@
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment files
+.venv/
+env/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Raster and geospatial data (too large)
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.csv
+
+# Audio and MIDI output
+*.mid
+*.midi
+*.wav
+*.mp3
+
+# Logs and temp
+*.log
+*.tmp
+
+# System files
+.DS_Store
