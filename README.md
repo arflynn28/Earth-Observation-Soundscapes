@@ -85,7 +85,9 @@ This is both a data science and storytelling piece. The soundscape reflects diff
 
 ## License
 
-MIT License
+- **Code** is licensed under the MIT License. See `LICENSE`.
+- **Music and Audio Output** are licensed under [CC BY 4.0](music-license.txt).
+
 
 ---
 
