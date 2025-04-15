@@ -85,7 +85,7 @@ This is both a data science and storytelling piece. The soundscape reflects diff
 
 ## License
 
-MIT License (or your choice)
+MIT License
 
 ---
 
