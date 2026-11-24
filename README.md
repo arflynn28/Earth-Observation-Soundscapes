@@ -2,10 +2,10 @@
 
 This project transforms remote sensing datasets into music. Move a small square around a map of the
 world and hear the satellite data translated: elevation, ocean depth,
-temperature, vegetation, cloud, night lights and radar become pitch, rhythm, instruments and volume
+temperature, vegetation, cloud, night lights, and radar become pitch, rhythm, instruments, and volume
 with the song changing as you move.
 
-It now runs indepdently with no Colab or live Earth Engine connection. The satellite data needs to be
+It now runs independently with no Colab or live Earth Engine connection. The satellite data needs to be
 downloaded once into a local grid, and a small web app plays the music through the
 FluidSynth synthesizer.
 
@@ -23,7 +23,7 @@ FluidSynth synthesizer.
 | Pitch | Elevation, ocean depth, land temperature | Higher ground gives lower notes, deeper sea gives lower notes, warmer gives higher; snapped to a pentatonic scale |
 | Tempo and rhythm | Cloud cover | Clear is slow with sparse notes (80 BPM); cloudy is fast with dense notes (140 BPM) |
 | Volume | Vegetation (EVI), night lights, sea-level pressure | Green areas boost instruments assigned to natural classes, bright night lights boost Piano and Synthesizer, low pressure boosts the ocean's String Bass |
-| Percussion | Sentinel-1 radar (VV) | Rougher returns pick fuller drums; a snare backbeat plays, no data is only snare and open ocean has no drums |
+| Percussion | Sentinel-1 radar (VV) | Rougher returns pick fuller drums; a snare backbeat plays; no data is only snare, and open ocean has no drums |
 
 ## Datasets
 
@@ -52,7 +52,7 @@ The original Colab notebook is kept in `legacy/`.
 
 ## Setup (Windows)
 
-1. Install Python 3. In this folder run `python -m venv .venv`, then `.venv\Scripts\activate`
+1. Install Python 3. In this folder, run `python -m venv .venv`, then `.venv\Scripts\activate`
    (if PowerShell blocks it: `Set-ExecutionPolicy -Scope Process RemoteSigned`), then
    `pip install -r requirements.txt`.
 2. Download [FluidSynth](https://github.com/FluidSynth/fluidsynth/releases) (Windows build) and a
